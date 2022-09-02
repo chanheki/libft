@@ -51,7 +51,7 @@ char	*ft_itoa(int n)
 	size_nb = ft_num_len(nb);
 	result = (char *)malloc((sizeof(char) * size_nb) + 1);
 	if (!result)
-		return (0);
+		return (NULL);
 	if (nb < 0)
 	{
 		*result++ = '-';
