@@ -30,5 +30,5 @@ int	ft_atoi(const char *str)
 		result = (result * 10) + ((*str) - '0');
 		str++;
 	}
-	return (result * symbol);
+	return ((int)(result * symbol));
 }
